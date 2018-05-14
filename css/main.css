@@ -1,0 +1,62 @@
+*{
+	box-sizing:border-box;
+	margin:0 auto;
+}
+
+#landing-div{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background: url("../images/banner.png");
+	height:100vh;
+	width:100vw;
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:0 5% 0 5%;
+}
+
+.landing-msg{
+	width:100%;
+	text-align:left;
+}
+
+.scroll{
+	align-self:flex-end;
+}
+
+.scroll img{
+	height:100px;
+	width:100px;
+}
+
+#what-fimfl{
+	height:100vh;
+	width:100%;
+	background:url("../images/fimfl.png");
+	background-size:contain;
+	background-position:bottom;
+	background-repeat:no-repeat;
+	padding:5%;
+}
+
+#mine-fimfl{
+	height:100vh;
+	width:100vw;
+	overflow:hidden;
+	padding:5%;
+}
+
+#mine-fimfl{
+	font-size:3.6vh;
+}
+
+
+video#bgvid { 
+	position:relative;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}

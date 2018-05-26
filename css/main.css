@@ -114,3 +114,66 @@ a{
 	padding:none;
 	font-size:2.5vh;
 }
+
+@media only screen and (max-width: 768px){
+	.logo{
+	height:200px;
+	width:200px;
+	margin:0 auto;
+	}
+
+	.logo-md{
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	}	
+
+	.card-inline .content{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.card-inline .content span{
+	font-size:4vh;
+	}
+
+	#introduction{
+		padding:10px;
+	}
+
+	.card{
+		width:100%;
+	}
+
+	.card p{
+		max-width:80%;
+	}
+
+	a{
+		line-height:5;
+		font-size:2vh;
+	}
+
+	.card-inline .content{
+	display:inline-block;
+	width:100%;
+	margin:0;
+	}
+
+	#contact .column{
+		width:100%;
+		height:50%;
+		margin-top:10px;
+		margin-bottom:20px;
+		text-align:center;
+	}
+
+	#contact .column a{
+	color:black;
+	border:none;
+	padding:none;
+	font-size:2.5vh;
+	line-height:1;
+}
+
+}

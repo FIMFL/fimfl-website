@@ -56,5 +56,8 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-file": "^2.0.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap-scss": "^4.1.3"
   }
 }

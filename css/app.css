@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Tajawal', sans-serif; }
+
+.landing-content {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  box-shadow: 2px 2px 32px 4px #d5d5d5; }
+  .landing-content .container {
+    margin-top: 12em; }
+    .landing-content .container .landing-logo-container img {
+      height: 15rem;
+      width: 15rem;
+      margin: 1em auto; }
+    .landing-content .container .landing-text-container {
+      text-align: center; }
+      .landing-content .container .landing-text-container h2 {
+        color: #0f0f0f;
+        font-size: 2.15rem; }
+        .landing-content .container .landing-text-container h2 span {
+          color: #BC130B;
+          font-size: 1.2em; }
+    .landing-content .container .arrow {
+      height: 12rem;
+      width: 12rem;
+      margin: 0 auto; }
+
+.intro-content {
+  height: 80vh;
+  min-height: 40em; }
+  .intro-content .intro-list-container {
+    margin-top: 10em; }
+    .intro-content .intro-list-container .intro-item-container {
+      padding: 1em 2.5em; }
+      .intro-content .intro-list-container .intro-item-container .intro-icon-container {
+        text-align: center; }
+      .intro-content .intro-list-container .intro-item-container .intro-text-container {
+        margin-top: 2.5em;
+        margin-bottom: 1.5em;
+        text-align: center; }
+        .intro-content .intro-list-container .intro-item-container .intro-text-container h4 {
+          font-size: 3rem;
+          border-bottom: 1px solid #BC130B;
+          border-top: 1px solid #BC130B;
+          padding: 0.2em; }
+    .intro-content .intro-list-container .intro-subtext-container p {
+      text-align: justify; }
+      .intro-content .intro-list-container .intro-subtext-container p span {
+        color: #BC130B; }
+
+.desktop-info-content {
+  height: 100vh; }
+  .desktop-info-content .know-more-container h2 {
+    font-size: 2rem;
+    margin-bottom: -8px; }
+  .desktop-info-content .know-more-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-right: 3px solid #BC130B;
+    border-bottom: 3px solid #BC130B;
+    padding-right: 2.5em;
+    padding-bottom: 0.5em; }
+    .desktop-info-content .know-more-container h1 span {
+      color: #BC130B;
+      font-size: 2em;
+      font-family: Roboto; }
+  .desktop-info-content .info-container {
+    margin-bottom: 3em; }
+    .desktop-info-content .info-container h3 {
+      font-size: 1.2rem;
+      color: #BC130B; }
+      .desktop-info-content .info-container h3 span {
+        font-size: 2.5em;
+        font-family: Monospace;
+        color: #000000; }
+    .desktop-info-content .info-container p {
+      font-size: 2em;
+      font-weight: bold;
+      margin-left: 0.5em;
+      margin-right: 1em; }
+  .desktop-info-content .left {
+    margin-left: 5em; }
+
+.mobile-info-content {
+  display: none; }
+
+@media (max-width: 1260px) {
+  .desktop-info-content {
+    display: none; }
+  .mobile-info-content {
+    display: block; } }

@@ -1,0 +1,129 @@
+*{
+   	box-sizing:border-box;
+	margin:0 auto;
+	font-family: 'Tajawal', sans-serif; 
+}
+
+.landing-content{
+    height:100vh;
+	width:100vw;
+    overflow:hidden;
+    box-shadow: 2px 2px 32px 4px #d5d5d5;
+    .container{
+        margin-top:12em;
+        .landing-logo-container{
+            img{
+                height:15rem;
+                width:15rem;
+                margin:1em auto;
+            }
+        }
+        .landing-text-container{
+            text-align:center;
+            h2{
+                color:#0f0f0f;
+                font-size:2.15rem;
+                span{
+                    color:#BC130B;
+                    font-size:1.2em;
+                }
+            }
+        }
+        .arrow{
+            height:12rem;
+            width:12rem;
+            margin:0 auto;
+        }
+    }
+}
+
+.intro-content{
+    height:80vh;
+    min-height:40em;
+    .intro-list-container{
+        margin-top:10em;
+        .intro-item-container{
+            padding:1em 2.5em;
+            .intro-icon-container{
+                text-align:center;
+            }
+            .intro-text-container{
+                margin-top:2.5em;
+                margin-bottom:1.5em;
+                text-align:center;
+                h4{
+                    font-size:3rem;
+                    border-bottom:1px solid #BC130B;
+                    border-top:1px solid #BC130B;
+                    padding:0.2em;
+                }
+            }
+        }
+        .intro-subtext-container{
+            p{
+                text-align:justify;
+                span{
+                    color:#BC130B;
+                }
+            }
+            .special-case-text{
+
+            }
+        }
+    }
+}
+
+.desktop-info-content{
+    height:100vh;
+    .know-more-container{
+        h2{
+            font-size:2rem;
+            margin-bottom:-8px;
+        }
+        h1{
+            font-size:2.5rem;
+            font-weight:bold;
+            border-right: 3px solid #BC130B;
+            border-bottom:3px solid #BC130B;
+            padding-right:2.5em;
+            padding-bottom:0.5em;
+            span{
+                color:#BC130B;
+                font-size:2em;
+                font-family: Roboto;
+            }
+        }
+    }
+    .info-container{
+        margin-bottom:3em;
+        h3{
+            font-size:1.2rem;
+            color:#BC130B;
+            span{
+                font-size:2.5em;
+                font-family:Monospace;
+                color:#000000;
+            }
+        }
+        p{
+            font-size:2em;
+            font-weight:bold;
+            margin-left: 0.5em;
+            margin-right:1em;
+        }
+    }
+    .left{
+        margin-left:5em;
+    }
+}
+.mobile-info-content{
+    display:none;
+}
+@media(max-width:1260px){
+    .desktop-info-content{
+        display:none;
+    }
+    .mobile-info-content{
+        display:block;
+    }
+}

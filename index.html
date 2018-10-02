@@ -1,65 +1,172 @@
 <!DOCTYPE html>
 	<head>
-		
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<!-- logo / icon -->
+		<link rel="icon" href="images/logo.png">
+
+		<!-- custom css -->
+		<!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
 		<link rel="stylesheet" type="text/css" href="css/app.css">
+
+		<!-- bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		
-		<link type="text/css" rel="stylesheet" media="screen" href="css/jquery-sakura.min.css" />
+		<!-- <link type="text/css" rel="stylesheet" media="screen" href="css/jquery-sakura.min.css" /> -->
+		
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		
 		<link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+		
 		<meta name="viewport" content="width=device-width" />
+
+		<script src="js/main.js"></script>
 	</head>
 	<body>
-		<div id="landing-div">
-			<div id="heading">
-				<div class='content'>
-					<img class="logo" src="images/logo.png">
-					<h2>Simplicity is the key.</h2>
-					<img class="logo" src="images/scroll.gif">
+
+		<div class="landing-content">
+			<div class='container'>
+				<div class="col-md-offset-3 col-md-6">
+					<center>
+						<div class="landing-logo-container">
+							<img class="logo" src="images/logo.png">
+						</div>
+						<div class="landing-text-container">
+							<h2><span>Simplicity</span> is the <span>key</span>.</h2>
+						</div>
+
+						<img class="arrow" src="images/scroll.gif">
+					</center>
+					
 				</div>
 			</div>
 		</div>
+
+		<div class="intro-content">
+			<div class="intro-list-container container">
+				<div class="row">
+					<div class="intro-item-container col-md-4 col-sm-6 col-xs-12">
+						<div class="intro-icon-container">
+							<i class="fab fa-expeditedssl fa-7x"></i>
+						</div>
+						<div class="intro-text-container">
+							<h4>Private</h4>
+						</div>
+						<div class="intro-subtext-container">
+							<p>All transactions with FIMFL are <span>concealed</span>. Sources/amounts transferred are hidden and encrypted, allowing high
+								resistance from blockchain analysis.</p>
+						</div>
+					</div>
+
+					<div class="intro-item-container col-md-4 col-sm-6 col-xs-12">
+						<div class="intro-icon-container">
+							<svg width="110px" height="110px" viewBox="0 0 84 80" xmlns="http://www.w3.org/2000/svg">
+								<title>decentralized-icon</title>
+								<g fill="#BC130B" fill-rule="evenodd">
+									<path stroke="#FFF" stroke-width="3" d="M56.206 10.326L34.445 3.96 17.217 22.15 8.15 46.703 6.337 74.895l38.989-4.547 19.948 7.276 9.974-23.645-5.44-27.283z"></path>
+									<path stroke="#FFF" stroke-width="3" d="M56.238 10.297l-15.424 19.88-13.61 17.17L6.337 74.454"></path>
+									<path stroke="#FFF" stroke-width="3" d="M18.218 22.178L41.146 30.1l29.349-3.96M8.713 45.94l19.106 2.64h31.844l16.377 5.281"></path>
+									<path stroke="#FFF" stroke-width="3" d="M18.218 22.178l9.052 27.418 16.294 20.107 15.39-20.107 9.957-22.848"></path>
+									<path stroke="#FFF" stroke-width="3" d="M34.851 5.545l5.452 24.634 18.171 19.16 7.269 28.285"></path>
+									<ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(30.891)" fill-rule="nonzero" fill="black"></ellipse>
+									<ellipse cx="3.168" cy="3.564" rx="3.168" ry="3.564" transform="translate(53.07 6.337)" fill-rule="nonzero" fill="black"></ellipse>
+									<circle cx="4.356" cy="4.356" r="4.356" transform="translate(64.158 22.178)" fill-rule="nonzero" fill="black"></circle>
+									<ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(54.653 44.356)" fill-rule="nonzero" fill="black"></ellipse>
+									<ellipse cx="2.772" cy="3.168" rx="2.772" ry="3.168" transform="translate(63.366 73.663)" fill-rule="nonzero" fill="black"></ellipse>
+									<ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(40.396 64.158)" fill-rule="nonzero" fill="black"></ellipse>
+									<ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(22.178 43.564)" fill-rule="nonzero" fill="black"></ellipse>
+									<ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(4.752 41.188)" fill-rule="nonzero" fill="black"></ellipse>
+								</g>
+							</svg>
+						</div>
+						<div class="intro-text-container">
+							<h4>Decentralized</h4>
+						</div>
+						<div class="intro-subtext-container">
+							<p>With the use of ring signatures, authorization is given to a single unknown entity within a group of people. This
+								allows <span>anonimity</span> and prevention of centralized authority.</p>
+						</div>
+					</div>
+					
+					<div class="intro-item-container col-md-4 col-sm-6 col-xs-12">
+						<div class="intro-icon-container">
+							<i class="fas fa-user-secret fa-7x"></i>
+						</div>
+						<div class="intro-text-container">
+							<h4>Untraceable</h4>
+						</div>
+						<div class="intro-subtext-container">
+							<p class="special-case-text">With the use of ring signatures, a message is endorsed by someone in a particular group of people. This endorser is <span>concealed</span> as it is computationally infeasible to determine which key was used from the group of people. Ring signatures also do not allow the anonimity of individual signatures to be revoked.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="desktop-info-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 know-more-container">
+						<h2>Know more</h2>
+						<h1>about <span>FIMFL</span></h1>
+					</div>
+					<div class="col-md-6">
+						
+							<div class="info-container left">
+								<h3>Algorithm <span>Cryptonote</span></h3>
+							</div>
+							<div class="info-container">
+								<h3>Total Supply <span>3,000,000,000</span></h3>
+							</div>
+							<div class="info-container left">
+								<h3>Block Time <span>60s</span></h3>
+							</div>
+							<div class="info-container">
+								<h3>Pre-mine <span>777,777,777</span></h3>
+							</div>
+
+					</div>
+					<div class="col-md-12">
+						<a href="files/fimflspecs.txt">Current Configuration</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mobile-info-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 know-more-container">
+						<h2>Know more</h2>
+						<h1>about <span>FIMFL</span></h1>
+					</div>
+					<div class="col-md-6">
+						
+							<div class="info-container left">
+								<h3>Algorithm <span>Cryptonote</span></h3>
+							</div>
+							<div class="info-container">
+								<h3>Total Supply <span>3,000,000,000</span></h3>
+							</div>
+							<div class="info-container left">
+								<h3>Block Time <span>60s</span></h3>
+							</div>
+							<div class="info-container">
+								<h3>Pre-mine <span>777,777,777</span></h3>
+							</div>
+
+					</div>
+					<div class="col-md-12">
+						<a href="files/fimflspecs.txt">Current Configuration</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div id="introduction">
-			<h2>Private, untraceable, and decentralized.</h2>
-			<div id="intro-content">
-				<div class="card">
-					<i class="fab fa-expeditedssl fa-7x"></i>
-					<h3>Private</h3>
-					<p>All transactions with FIMFL are concealed. Sources/amounts transferred are hidden and encrypted, allowing high resistance from blockchain analysis.</p>
-				</div>
-
-				<div class="card">
-					<i class="fas fa-user-secret fa-7x"></i>
-					<h3>Untraceable</h3>
-					<p>With the use of ring signatures, a message is endorsed by someone in a particular group of people. This endorser is concealed as it is computationally infeasible to determine which key was used from the group of people. Ring signatures also do not allow the anonimity of individual signatures to be revoked.</p>
-				</div>
-
-				<div class="card">
-					<svg width="110px" height="110px" viewBox="0 0 84 80" xmlns="http://www.w3.org/2000/svg"><title>decentralized-icon</title><g fill="#BC130B" fill-rule="evenodd"><path stroke="#FFF" stroke-width="3" d="M56.206 10.326L34.445 3.96 17.217 22.15 8.15 46.703 6.337 74.895l38.989-4.547 19.948 7.276 9.974-23.645-5.44-27.283z"></path><path stroke="#FFF" stroke-width="3" d="M56.238 10.297l-15.424 19.88-13.61 17.17L6.337 74.454"></path><path stroke="#FFF" stroke-width="3" d="M18.218 22.178L41.146 30.1l29.349-3.96M8.713 45.94l19.106 2.64h31.844l16.377 5.281"></path><path stroke="#FFF" stroke-width="3" d="M18.218 22.178l9.052 27.418 16.294 20.107 15.39-20.107 9.957-22.848"></path><path stroke="#FFF" stroke-width="3" d="M34.851 5.545l5.452 24.634 18.171 19.16 7.269 28.285"></path><ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(30.891)" fill-rule="nonzero" fill="black"></ellipse><ellipse cx="3.168" cy="3.564" rx="3.168" ry="3.564" transform="translate(53.07 6.337)" fill-rule="nonzero" fill="black"></ellipse><circle cx="4.356" cy="4.356" r="4.356" transform="translate(64.158 22.178)" fill-rule="nonzero" fill="black"></circle><ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(54.653 44.356)" fill-rule="nonzero" fill="black"></ellipse><ellipse cx="2.772" cy="3.168" rx="2.772" ry="3.168" transform="translate(63.366 73.663)" fill-rule="nonzero" fill="black"></ellipse><ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(40.396 64.158)" fill-rule="nonzero" fill="black"></ellipse><ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(22.178 43.564)" fill-rule="nonzero" fill="black"></ellipse><ellipse cx="3.96" cy="4.356" rx="3.96" ry="4.356" transform="translate(4.752 41.188)" fill-rule="nonzero" fill="black"></ellipse></g></svg>
-					<h3>Decentralized</h3>
-					<p>With the use of ring signatures, authorization is given to a single unknown entity within a group of people. This allows anonimity and prevention of centralized authority.</p>
-				</div>
+			
 				
-				<div class="card-inline">
-					<h2>Know more about FIMFL</h2>
-					<div class="content">
-						<h3 class="head">Algorithm</h3>
-						<span>CryptoNote</span>
-					</div>
-					<div class="content">
-						<h3 class="head">Total Supply</h3>
-						<span>3,000,000,000.00</span>
-					</div>
-					<div class="content">
-						<h3 class="head">Block Time</h3>
-						<span>60s</span>
-					</div>
-					<div class="content">
-						<h3 class="head">Pre-mine</h3>
-						<span>777,777,777.00</span>
-					</div>
-				</div>
-				<a href="files/fimflspecs.txt">Current Configuration</a>
 			</div>
 			<div id="contact">
 				<div class="column">
@@ -85,7 +192,7 @@
     	// domReady
     	if($(window).width()>600){
     		$(function() {
-        	$('#landing-div').sakura();
+        	$('.landing-content').sakura();
     	});
     	}
     	else{
